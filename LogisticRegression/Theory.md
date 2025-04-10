@@ -22,10 +22,10 @@ A Log Loss of 0 means the predicted probabilities match the actual outcomes perf
 ### Partial Derivatives of the Log Loss
 
 $$
-\frac{∂J}{∂W} = \frac{1}{m}X(y_hat−y)^T
+\frac{∂J}{∂W} = \frac{1}{m}X(y_{pred}−y)^T
 $$
 $$
-\frac{∂J}{∂b} = \frac{1}{m}∑_{i=1}^m(y_hat−y)
+\frac{∂J}{∂b} = \frac{1}{m}∑_{i=1}^m(y_{pred}−y)
 $$    
 
 m=the number of samples
